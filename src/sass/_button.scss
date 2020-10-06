@@ -1,0 +1,9 @@
+@use 'settings';
+
+$padding: settings.$global-padding;
+$bg-color: settings.$main-color;
+
+.button {
+  padding: $padding;
+  background-color: $bg-color;
+}
